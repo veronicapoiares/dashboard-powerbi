@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Modo escuro */
+body {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Título */
+h1 {
+    color: #00d9ff;
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 8px rgba(0, 217, 255, 0.8);
+}
+
+/* Botão de atualização */
+#refresh-btn {
+    background: linear-gradient(135deg, #007bff, #00d9ff);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 217, 255, 0.5);
+}
+
+#refresh-btn:hover {
+    background: linear-gradient(135deg, #00d9ff, #007bff);
+    transform: scale(1.05);
+}
+
+/* Estilização do Power BI */
+iframe {
+    width: 90%;
+    height: 80vh;
+    border: 2px solid #00d9ff;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 217, 255, 0.7);
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.author {
+    color: #00d9ff;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(0, 217, 255, 0.7);
+}
+
